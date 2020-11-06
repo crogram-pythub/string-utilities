@@ -21,7 +21,7 @@ def get_current_time():
 class GUI():
     def __init__(self, master):
         self.master = master
-        master.title('文本处理工具 V%s' % __version__)
+        master.title('编码解码 V%s' % __version__)
         master.configure(relief='ridge', padx=5, pady=5)
         set_window_center(master, 700, 600)
         self.init_area_source()
